@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfc65ef8-5be4-43dc-aff6-668b162638b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="cfc65ef8-5be4-43dc-aff6-668b162638b9" name="Changes" comment="--Class 1 - Java Time and calendar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ada/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/datetime/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/AgeCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/AgeCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/BirthdayReminderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/BirthdayReminderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/CountdownTimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/CountdownTimerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/DayOfWeekCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/DayOfWeekCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/Friday13thCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/Friday13thCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/LeapYearCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/LeapYearCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/TimeDifferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ada/datetime/operations/TimeDifferenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +37,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SOJyXZTyrQyTuApEsHtwfiP6KR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "C:/@Developer/@ada/java-techiniques/src/main/java/br/com/ada",
-    "last_opened_file_path": "C:/@Developer/@ada/java-techiniques/src/main/java/br/com/ada/datetime"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/@Developer/@ada/java-techiniques/src/main/java/br/com/ada&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/@Developer/@ada/java-techiniques/src/main/java/br/com/ada/datetime&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\@Developer\@ada\java-techiniques\src\main\java\br\com\ada\datetime" />
@@ -61,6 +65,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.ada.datetime.operations" />
       <recent name="br.com.ada.datetime" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -69,13 +74,13 @@
       <recent name="br.com.ada.jtime" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeZone">
-    <configuration name="Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.datetime.format.Formatter" />
+  <component name="RunManager" selected="Application.TraditionalSearch">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.datetime.Main" />
       <module name="java-techiniques" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.datetime.format.*" />
+          <option name="PATTERN" value="br.com.ada.datetime.operations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,59 +101,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYearCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TraditionalSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.lambda.usecase.TraditionalSearch" />
       <module name="java-techiniques" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.datetime.operations.*" />
+          <option name="PATTERN" value="br.com.ada.lambda.usecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.ada.datetime" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.datetime.LeapYearCheckerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="br.com.ada.lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.lambda.Main" />
       <module name="java-techiniques" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.datetime.operations.*" />
+          <option name="PATTERN" value="br.com.ada.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.ada.datetime" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.datetime.TimeDifferenceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeDifferenceTest.testCalculateTimeDifferenceJavaTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="br.com.ada.lambda.intefaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.lambda.intefaces.Main" />
       <module name="java-techiniques" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.datetime.operations.*" />
+          <option name="PATTERN" value="br.com.ada.lambda.abstracts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.ada.datetime" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.datetime.TimeDifferenceTest" />
-      <option name="METHOD_NAME" value="testCalculateTimeDifferenceJavaTime" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TraditionalSearch" />
+        <item itemvalue="Application.br.com.ada.lambda.Main" />
+        <item itemvalue="Application.br.com.ada.lambda.intefaces.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TimeZone" />
-        <item itemvalue="Application.Formatter" />
-        <item itemvalue="JUnit.TimeDifferenceTest" />
-        <item itemvalue="JUnit.TimeDifferenceTest.testCalculateTimeDifferenceJavaTime" />
-        <item itemvalue="JUnit.LeapYearCheckerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1689011952427</updated>
     </task>
+    <task id="LOCAL-00001" summary="--Class 1 - Java Time and calendar">
+      <created>1689063403608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689063403608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,15 +180,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/ada/datetime/operations/AgeCalculator.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="--Class 1 - Java Time and calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="--Class 1 - Java Time and calendar" />
   </component>
 </project>

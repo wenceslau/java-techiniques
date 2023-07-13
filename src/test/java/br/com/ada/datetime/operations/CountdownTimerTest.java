@@ -1,4 +1,4 @@
-package br.com.ada.datetime;
+package br.com.ada.datetime.operations;
 
 import br.com.ada.datetime.operations.CountdownTimer;
 import junit.framework.TestCase;

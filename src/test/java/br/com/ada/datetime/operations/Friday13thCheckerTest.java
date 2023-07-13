@@ -1,4 +1,4 @@
-package br.com.ada.datetime;
+package br.com.ada.datetime.operations;
 
 import br.com.ada.datetime.operations.Friday13thChecker;
 import junit.framework.TestCase;
