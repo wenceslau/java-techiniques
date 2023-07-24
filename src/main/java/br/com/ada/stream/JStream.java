@@ -37,21 +37,40 @@ public class JStream {
 
     private static void referenciaMetodo(){
 
-        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 5, 1);
+        List<String> palavras = Arrays.asList("Agua","Borboleta","Carro");
 
         for (Integer numero : numeros) {
             System.out.println(numero);
         }
-
         numeros.forEach(n -> System.out.println(n));
-
 
         int soma = numeros.stream()
                 .reduce(0,Integer::sum);
 
-        List<String> palavras = Arrays.asList("A","B","C");
+        String concat = palavras.stream()
+                .reduce("",String::concat);
 
-        String concat = palavras.stream().reduce("",String::concat);
+        List<String> palavraB = palavras.stream()
+                .filter(f -> f.startsWith("Borboleta"))
+                .collect(Collectors.toList());
+
+        List<String> uppercaseStrings = palavras.stream()
+                .map(String::toUpperCase)
+                .collect(Collectors.toList());
+
+        double avarage = numeros.stream()
+                .mapToInt(Integer::intValue)
+                .average()
+                .orElse(0.0);
+
+        String longestString = palavras.stream()
+                .max(Comparator.comparingInt(String::length))
+                .get();
+
+        List<Integer> uniqueNumbers = numeros.stream()
+                .distinct()
+                .collect(Collectors.toList());
 
     }
 

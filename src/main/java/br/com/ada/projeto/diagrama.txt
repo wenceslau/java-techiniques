@@ -1,0 +1,60 @@
+
+
+                             +----------------------------------------------------------------------+
+                             |  EmployeeManagementSystem                                            |
+                             +----------------------------------------------------------------------+
+                             | - employees: List<Employee>                                          |
+                             +----------------------------------------------------------------------+
+                             | + loadEmployeesFromFile(filePath: String): void                      |
+                             | + getAllEmployees(): List<Employee>                                  |
+                             | + filterEmployees(predicate: Predicate<Employee>): List<Employee>    |
+                             | + getEmployee(predicate: Predicate<Employee>): Optional<Employee>    |
+                             | + calculateTotalSalary(): double                                     |
+                             | + calculateAnnualSalary(Employee employee): double                   |
+                             | + findEmployeeWithHighestSalary(): Optional<Employee>                |
+                             | + getCurrentDateTimeInTimezone(timezone: String): LocalDateTime      |
+                             +----------------------------------------------------------------------+
+
+                                         |
+                                         |
+                                         v
+
+                          +-----------------------------------------------------------------+
+                          |         Employee                                                |
+                          +-----------------------------------------------------------------+
+                          | - code: String                                             |
+                          | - name: String                                                  |
+                          | - hireDate: LocalDate                                           |
+                          | - salary: double                                                |
+                          +-----------------------------------------------------------------+
+                          | + Employee(code: String, name: String, hireDate: LocalDate, salary: double)   |
+                          | + getName(): String                                             |
+                          | + setName(name: String): void                                   |
+                          | + getHireDate(): LocalDate                                      |
+                          | + setHireDate(hireDate: LocalDate): void                        |
+                          | + getSalary(): double                                           |
+                          | + setSalary(salary: double): void                               |
+                          | + toString(): String                                            |
+                          +-----------------------------------------------------------------+
+
+
+// Main
+
+Usar a classe EmployeeManagementSystem
+
+1 - Carregar o arquivo
+2 - Listar todos os empregados
+3 - Listar todos os empregados contratados apos 01/01/2022
+4 - Listar todos os empregados com salarios maior que 3500
+5 - Mostrar o total geral de salarios de todos empregados
+6 - Mostrar o empregado que tem maior salario
+7 - Mostrar o empregado que tem menor salario
+8 - Buscar o empregado pela matricula 2500 e 0022
+9 - Imprimir a lista de todos os empregados com o valor do seu salario anual
+10 - Imprimir no final do processamento com a data atual no Time Zone, de São Paulo, Nova York e Londres
+
+Voce deve se comportar como dois desenvolvedores
+
+1 - o que escreveu a classe EmployeeManagementSystem
+2 - o que vai usar a classe EmployeeManagementSystem
+

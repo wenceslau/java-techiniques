@@ -1,0 +1,30 @@
+Joao Carlos;São Paulo;casado;22/01/2002
+Ana Catarina;Rio de Janeiro;solteiro;16/10/2001
+Luciana Santos;Curitiba;casado;22/10/1995
+Marcos Paulo;São Paulo;casada;01/04/1998
+Mariana Tavares;Recife;solteira;10/02/1998
+Joao Carlos;São Paulo;casado;22/01/2002
+Ana Catarina;Rio de Janeiro;solteiro;16/10/2001
+Luciana Santos;Curitiba;casado;22/10/1995
+Marcos Paulo;São Paulo;casada;01/04/1998
+Mariana Tavares;Recife;solteira;10/02/1998
+Joao Carlos;São Paulo;casado;22/01/2002
+Ana Catarina;Rio de Janeiro;solteiro;16/10/2001
+Luciana Santos;Curitiba;casado;22/10/1995
+Marcos Paulo;São Paulo;casada;01/04/1998
+Mariana Tavares;Recife;solteira;10/02/1998
+Joao Carlos;São Paulo;casado;22/01/2002
+Ana Catarina;Rio de Janeiro;solteiro;16/10/2001
+Luciana Santos;Curitiba;casado;22/10/1995
+Marcos Paulo;São Paulo;casada;01/04/1998
+Mariana Tavares;Recife;solteira;10/02/1998
+Joao Carlos;São Paulo;casado;22/01/2002
+Ana Catarina;Rio de Janeiro;solteiro;16/10/2001
+Luciana Santos;Curitiba;casado;22/10/1995
+Marcos Paulo;São Paulo;casada;01/04/1998
+Mariana Tavares;Recife;solteira;10/02/1998
+Joao Carlos;São Paulo;casado;22/01/2002
+Ana Catarina;Rio de Janeiro;solteiro;16/10/2001
+Luciana Santos;Curitiba;casado;22/10/1995
+Marcos Paulo;São Paulo;casada;01/04/1998
+Mariana Tavares;Recife;solteira;10/02/1998

@@ -1,0 +1,15 @@
+0001;Joao Carlos;22/01/2021;4.040
+0022;Ana Catarina;17/10/2020;5.000
+4588;Luciana Santos;01/02/2023;4.000
+3456;Marcos Paulo;01/01/2020;1.200
+0975;Mariana Tavares;16/05/2023;5.100
+2356;Jose Maria;22/01/2021;4.040
+9755;Ana Maria;17/10/2020;5.300
+3466;Luciano Santos;01/02/2023;3.000
+1245;Marcos Pereira;01/01/2020;2.200
+0091;Maria Tavares;16/05/2023;5.500
+8891;Joao Pedro;22/01/2021;4.040
+0011;Ana Tavares;17/10/2020;1.000
+0900;Lucia Santos;01/02/2023;3.000
+9801;Mateus Paulo;01/01/2020;2.200
+2500;Marta Tavares;16/05/2023;5.500
