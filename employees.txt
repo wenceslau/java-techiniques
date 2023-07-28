@@ -13,3 +13,41 @@
 0900;Lucia Santos;01/02/2023;3.000
 9801;Mateus Paulo;01/01/2020;2.200
 2500;Marta Tavares;16/05/2023;5.500
+
+
+0900;Lucia Santos;01/02/2023;3.000
+EmployeeManagementSystem managementSystem = new EmployeeManagementSystem();
+managementSystem.loadEmployeesFromFile("employees.txt");
+Optional<Employee> optional = managementSystem.getEmployee(e-> e.getName().equalsIgnoreCase("Luciano Santos"));
+Assert.assertEquals(true, optional.isPresent());
+
+
+
+EmployeeManagementSystem managementSystem = new EmployeeManagementSystem();
+managementSystem.loadEmployeesFromFile("employees.txt");
+double total = managementSystem.calculateTotalSalary();
+Assert.assertEquals(true, total > 0);
+
+
+//3466;Luciano Santos;01/02/2023;3.000
+EmployeeManagementSystem managementSystem = new EmployeeManagementSystem();
+managementSystem.loadEmployeesFromFile("employees.txt");
+Optional<Employee> optional = managementSystem.getEmployee(e-> e.getName().equalsIgnoreCase("Luciano Santos"));
+Employee employee = optional.get();
+double totalAno = managementSystem.calculateAnnualSalary(employee);
+Assert.assertEquals(new Double(36000),new Double(totalAno));
+
+
+
+EmployeeManagementSystem managementSystem = new EmployeeManagementSystem();
+managementSystem.loadEmployeesFromFile("employees.txt");
+Optional<Employee> optional = managementSystem.findEmployeeWithHighestSalary();
+Employee employee = optional.get();
+Assert.assertEquals(new Double(5500),new Double(employee.getSalary()));
+
+
+EmployeeManagementSystem managementSystem = new EmployeeManagementSystem();
+LocalDateTime now = LocalDateTime.now();
+System.out.println(now);
+LocalDateTime nowTimeZone = managementSystem.getCurrentDateTimeInTimezone("America/New_York");
+System.out.println(nowTimeZone);
